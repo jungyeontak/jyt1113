@@ -1,5 +1,4 @@
 # KAKAOPAY 사전과제
 
-- 빨강
-  - 녹색
-    - 파랑
+- BackGround
+  - net framework4.6.1   
