@@ -6,5 +6,4 @@
   
 ## 문제 해결
 - UNIQUE한 쿠폰번호를 어떻게 생각 할 것인지?
-  - 쿠폰 길이의 제한이 없었기에 임의로 16자리로 생각하여 만듬
-  .Net framework Random 함수 사용하여 1 활용 및 DataBase의 Auto Increment 
+  - 쿠폰 길이의 제한이 없었기에 임의로 16자리로 생각하여 만듬 .Net framework Random 함수 사용하여(12자리의 난수를 발생 시키고) 뒷 4자리ㄴ,ㄴ     DataBase의 Auto Increment를 사용하여 UNIQUE한 쿠폰코드 생성함. 
