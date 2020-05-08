@@ -13,3 +13,6 @@
 ## 빌드 및 실행 방법
 1. visual studio 2015이상 설치 후 KaKaoPayRestApi.sln파일을 클릭하여 오픈 한다.
 2. F5버튼을 빌드 및 로컬 WebApi 서버를 구동시켜 실행한다.
+
+## 제약사항(선택)
+ - API 인증을 위해 JWT(Json Web Token)를 이용해서 Token 기반 API 인증 기능을 개발하고 각 API 호출 시에 HTTP Header에 발급받은 토큰을 가지고 호출하세요
