@@ -26,13 +26,15 @@
   - 간단한 데이터베이스를 구성하기 위해 XML파일을 이용하여 가상의 데이터베이스로 만들어 사용하였다.
 
 ## API 정의서  
-- Content-Type:application/json
-
-- 1.랜덤한 코드의 쿠폰을 N개 생성하여 데이터베이스에 보관하는 API를 구현하세요.
+- 기본정보
+  - Content-Type:application/json
  
-|호출URL|컬럼타입|비고|
+|구분|내용|비고|
 |------|---|---|
-|COUPON_KEY|VARCHAR2(20)|쿠폰키|
+|code|응답코드|200, 300 등|
+|msg|메시지|요청별 처리메시지|
+|coupon_code|쿠폰코드|쿠폰코드 값|
+
 
 ## 빌드 및 실행 방법
 1. visual studio 2015이상 설치 후 KaKaoPayRestApi.sln파일을 클릭하여 오픈 한다.
