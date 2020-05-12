@@ -7,11 +7,18 @@
 ## 문제 해결
 - 데이터베이스(테이블) 구조  
 
-|제목|내용|설명|
+|컬럼명|컬럼타입|비고|
 |------|---|---|
-|테스트1|테스트2|테스트3|
-|테스트1|테스트2|테스트3|
-|테스트1|테스트2|테스트3|
+|COUPON_KEY|VARCHAR2(20)|쿠폰키|
+|STATUS|VARCHAR2(1)|상태값(I:쿠폰생성, B:쿠폰번호 발급(구매), C:쿠폰사용취소(사용 후 취소), Y:사용완료, E:만료)|
+|CALL_SITE|VARCHAR2(500)|호출한 사이트 주소|
+|CREATE_DATE|DATE|쿠폰 생성일자|
+|BUY_DATE|DATE|쿠폰 발급일자(구매일자)|
+|USE_DATE|DATE|쿠폰 사용일자|
+|CANCEL_DATE|DATE|쿠폰 사용취소일자|
+|EXPIRE_DATE|DATE|만료된 쿠폰번호 갱신일자|
+|EXPIRE_SMS_YN|VARCHAR(1)|만료3일전 SMS 전송여부|
+
 
 - UNIQUE한 쿠폰번호를 어떻게 생각 할 것인지?
   - 쿠폰 길이의 제한이 없었기에 임의로 16자리로 생각하여 만듬 .Net framework Random 함수 사용하여(6자리의 난수를 발생 시키고) 뒤에 10자리는     DataBase(ORACLE)의 SEQUENCE를 사용하여 UNIQUE한 쿠폰코드 생성함. 
