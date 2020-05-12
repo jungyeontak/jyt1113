@@ -49,9 +49,9 @@
 
 - 2.생성된 쿠폰중 하나를 사용자에게 지급하는 API를 구현하세요.
 
-> URL : /api/create/coupon/v1
+> URL : /api/get/coupon/v1
 >
-> Method : POST
+> Method : GET
 
 |Request|Response|비고|
 |------|---|---|
@@ -63,7 +63,7 @@
 
 > URL : /api/get/buy/coupon/v1"
 >
-> Method : POST
+> Method : GET
 
 |Request|Response|비고|
 |------|---|---|
@@ -100,9 +100,9 @@
 - 6.발급된 쿠폰중 당일 만료된 전체 쿠폰 목록을 조회하는 API를 구현하세요.
   - 조회기준:쿠폰 구매일자(BUY_DATE)로 부터90일 이상이고 STATUS(상태)가 B(구매상태), C(사용취소 상태) 조회 
 
-> URL : /api/expire/coupon/v1"
+> URL : /api/get/expire/coupon/v1"
 >
-> Method : POST
+> Method : GET
 
 |Request|Response|비고|
 |------|---|---|
