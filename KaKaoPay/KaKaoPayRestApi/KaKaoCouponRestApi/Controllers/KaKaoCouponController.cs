@@ -74,7 +74,7 @@ namespace KaKaoCouponRestApi.Controllers
         /// create date  : 2020-05-12
         /// update date  : 최종 수정 일자, 수정자, 수정개요 
         /// </summary>
-        [HttpPost]
+        [HttpGet]
         [Route("get/coupon/v1")]
         public string GetCoupon()
         {
@@ -103,7 +103,7 @@ namespace KaKaoCouponRestApi.Controllers
         /// create date  : 2020-05-12
         /// update date  : 최종 수정 일자, 수정자, 수정개요 
         /// </summary>
-        [HttpPost]
+        [HttpGet]
         [Route("get/buy/coupon/v1")]
         public string GetBuyCoupon()
         {
@@ -215,7 +215,7 @@ namespace KaKaoCouponRestApi.Controllers
         /// create date  : 2020-05-12
         /// update date  : 최종 수정 일자, 수정자, 수정개요 
         /// </summary>
-        [HttpPost]
+        [HttpGet]
         [Route("expire/coupon/v1")]
         public string ExpireCoupon()
         {                         
