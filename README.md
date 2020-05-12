@@ -16,7 +16,7 @@
 |BUY_DATE|DATE|쿠폰 발급일자(구매일자)|
 |USE_DATE|DATE|쿠폰 사용일자|
 |CANCEL_DATE|DATE|쿠폰 사용취소일자|
-|EXPIRE_DATE|DATE|만료된 쿠폰번호 갱신일자|
+|EXPIRE_DATE|DATE|만료된 쿠폰번호 업데이트 일자|
 |EXPIRE_SMS_YN|VARCHAR(1)|만료3일전 SMS 전송여부|
 
 
