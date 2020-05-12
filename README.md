@@ -1,7 +1,7 @@
 # KAKAOPAY 사전과제
 
 - 개발 프레임워크
-  - .Net framework4.6.1
+  - C#(.Net framework4.6.1)
   - IIS6.0
   
 ## 문제 해결
