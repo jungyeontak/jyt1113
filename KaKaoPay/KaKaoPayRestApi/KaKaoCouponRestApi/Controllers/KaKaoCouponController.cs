@@ -216,7 +216,7 @@ namespace KaKaoCouponRestApi.Controllers
         /// update date  : 최종 수정 일자, 수정자, 수정개요 
         /// </summary>
         [HttpGet]
-        [Route("expire/coupon/v1")]
+        [Route("get/expire/coupon/v1")]
         public string ExpireCoupon()
         {                         
             KaKaoCouponModel model = new KaKaoCouponModel();
